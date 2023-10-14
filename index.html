@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="portstyle.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="https://kit.fontawesome.com/d9f0abd257.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -14,9 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gabarito&family=Hind:wght@500&family=Nunito&family=Onest:wght@500&family=Poppins&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script>
-        AOS.init();
-      </script>
+    
    <nav>
     <div class="container nav-container">
         <a href="https://youtube.com/@notsatisfy-777?si=RDnj0bZ3yJgrJkgp" class="logo " data-aos="zoom-in-up" data-aos-duration="2000">NTS5_<span>Alan</span></a>
@@ -46,7 +45,7 @@
     <a href="https://www.linkedin.com/in/akhil-r777/"><i class="fab fa-linkedin"></i></a>
 </div>
 <div class="hero-image" >
-    <img  src="profile2.png" />
+    <img  src="profile2.png"/>
 </div>
 </div>
    </div>
@@ -70,7 +69,8 @@
         <h2 data-aos-delay="200" data-aos="fade-left" data-aos-duration="2000">Skills</h2>
         <div class="container skills-container">
                 <div class="skills-left">
-                    <div class="progress" data-aos="zoom-in-up"  data-aos-delay="50" data-aos-duration="2000">
+                    <div class="progress " data-aos="zoom-in-up"  data-aos-delay="50" data-aos-duration="2000">
+                       
                         <div class="info">  
                             <h5>HTML</h5> 
                             <h5>90%</h5>
@@ -79,7 +79,7 @@
                             <div class="inner-row"></div>
                          </div>
                     </div>
-                    <div class="progress" data-aos="zoom-in-up"  data-aos-delay="500" data-aos-duration="2000">
+                    <div class="progress " data-aos="zoom-in-up"  data-aos-delay="500" data-aos-duration="2000">
                         <div class="info">  
                             <h5>CSS</h5> 
                             <h5>70%</h5>
@@ -88,7 +88,7 @@
                             <div class="inner-row"></div>
                          </div>
                     </div>
-                    <div class="progress" data-aos="zoom-in-up"  data-aos-delay="800" data-aos-duration="2000">
+                    <div class="progress card" data-aos="zoom-in-up"  data-aos-delay="800" data-aos-duration="2000">
                         <div class="info">  
                             <h5>JavaScript</h5> 
                             <h5>80%</h5>
@@ -97,7 +97,7 @@
                             <div class="inner-row"></div>
                          </div>
                     </div>
-                    <div class="progress" data-aos="zoom-in-up"  data-aos-delay="1600" data-aos-duration="2000">
+                    <div class="progress card" data-aos="zoom-in-up"  data-aos-delay="1600" data-aos-duration="2000">
                         <div class="info">  
                             <h5>Boot Strap</h5> 
                             <h5>85%</h5>
@@ -108,15 +108,16 @@
                     </div>
                 </div>
                 <div  data-aos="fade-left"  data-aos-delay="1000" data-aos-duration="500"class="skills-right">
-                    <img src="skill.gif"/>
+                    <img src="skill.gif"   />
                 </div>
         </div>
 </section>
 <section id="Portfolio">
     <h2 data-aos="fade-down" data-aos-delay="1000" data-aos-duration="2500">Portfolio</h2>
     <div class="container portfolio-container">
-        <div class="project" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="500">
-            <img src="sk-1.jpeg">
+        <div class="project"  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="500">
+            <div class="card">
+            <img src="sk-1.jpeg" >
             <h4>Generative AI Chat Bot</h4>
             <p>
                 Created a Chat Bot using langchain , gradio, hugging face and  LLm, 
@@ -124,9 +125,10 @@
             <div class="project-action">
                 <a href="https://alansgpt774.ccbp.tech/" class="btn">Live Demo</a>
                 <a href="https://huggingface.co/spaces/akhil777/ak888" class="btn">GitHUB</a>
-            </div>
+            </div></div>
         </div>
         <div class="project" data-aos="fade-down" data-aos-delay="2000" data-aos-duration="500">
+            <div class="card">
             <img src="sk-6.1.png">
             <h4>OSNIT_Analysis</h4>
             <p>
@@ -136,8 +138,9 @@
                 <a href="https://dynamicprj7.ccbp.tech/" class="btn">Live Demo</a>
                 <a href="" class="btn">GitHUB</a>
             </div>
-        </div>
+        </div></div>
         <div class="project" data-aos="fade-left" data-aos-delay="3000" data-aos-duration="500">
+            <div class="card">
             <img src="sk-3.png">
             <h4>Tourism Static Website</h4>
             <p>
@@ -146,9 +149,10 @@
             <div class="project-action">
                 <a href="https://tourismweb7744.ccbp.tech/" class="btn">Live Demo</a>
                 <a href="" class="btn">GitHUB</a>
-            </div>
+            </div></div>
         </div>
         <div class="project" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="500">
+            <div class="card">
             <img src="sk-4.png">
             <h4>JS_Basic Project</h4>
             <p>
@@ -157,9 +161,10 @@
             <div class="project-action">
                 <a href="https://dynamicprj10.ccbp.tech/" class="btn">Live Demo</a>
                 <a href="" class="btn">GitHUB</a>
-            </div>
+            </div></div>
         </div>
         <div class="project" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="500">
+            <div class="card">
             <img src="sk-5.png">
             <h4>Guessing Game</h4>
             <p>
@@ -168,9 +173,10 @@
             <div class="project-action">
                 <a href="https://dynamicprj3.ccbp.tech/" class="btn">Live Demo</a>
                 <a href="" class="btn">GitHUB</a>
-            </div>
+            </div></div>
         </div>
         <div class="project"  data-aos="fade-left" data-aos-delay="3000" data-aos-duration="500">
+            <div class="card">
             <img src="sk-2.png">
             <h4>Responsive Hotel Page</h4>
             <p>
@@ -180,7 +186,7 @@
                 <a href="https://myhotelweb7746.ccbp.tech/" class="btn">Live Demo</a>
                 <a href="https://github.com/ALANAK777/alanhotel" class="btn">GitHUB</a>
             </div>
-        </div>
+        </div></div>
     </div>
 </section>
 <section id="Contact">
@@ -199,6 +205,10 @@
     
 </footer>
 <script src="portfolioscript.js"></script>
+<script>
+    AOS.init();
+  </script>
+
 
 </body>
 </html>
