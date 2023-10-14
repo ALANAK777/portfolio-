@@ -40,7 +40,12 @@ line-height:130%;
 .p-abt{
     font-family: 'Gabarito', cursive !important;
 }
-
+.card:hover {
+    transform: scale(1.1);
+  }
+  .card {
+    transition: transform 0.5s;
+  }
 #lg-edit{
     height:50px;
     width:50px;
@@ -54,6 +59,10 @@ line-height:130%;
 .ct{
     border:solid 1px #171c23;
 }
+.bg-container{
+height:100vh;
+}
+
 .logo{
     font-size:1.8rem;
     font-weight:700;
